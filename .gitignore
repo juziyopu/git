@@ -38,6 +38,9 @@ dist/
 out/
 coverage/
 
+# Generated experiment artifacts
+results/
+
 # Logs, caches, and temporary files
 *.log
 *.tmp
