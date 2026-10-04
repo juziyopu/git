@@ -1,0 +1,48 @@
+# Operating-system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor and IDE metadata
+.idea/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.swp
+*.swo
+*~
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+!.env.template
+*.pem
+*.key
+
+# Dependencies and language caches
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Build and test output
+build/
+dist/
+out/
+coverage/
+
+# Logs, caches, and temporary files
+*.log
+*.tmp
+*.temp
+*.bak
+.cache/
+tmp/
+temp/
